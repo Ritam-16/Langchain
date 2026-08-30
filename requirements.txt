@@ -3,3 +3,9 @@ langchain-openai
 langchain-google-genai
 langchain-groq
 python-dotenv
+langchain-core
+langchain-huggingface
+transformers
+huggingface-hub
+numpy
+scikit-learn
