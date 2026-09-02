@@ -21,7 +21,7 @@ template = load_prompt('template.json')
 
 
 if st.button('Summarize'):
-    chain = template | model
+    chain = template | model #Chaining
     result = chain.invoke({
         'paper_input':paper_input,
         'style_input':style_input,
